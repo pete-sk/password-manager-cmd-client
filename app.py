@@ -20,7 +20,7 @@ def login():
     return pswrd, token
 
 
-def launch_account_settings(url=f'http://{domain}/account/settings'):
+def launch_account_settings(url=f'https://{domain}/account/settings'):
     webbrowser.open(url)
     print('Settings page opened in the default browser.')
     exit()
